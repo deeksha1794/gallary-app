@@ -1,0 +1,21 @@
+.pagination-wrapper {
+  overflow-x: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  bottom: 0;
+  margin: 0.2em;
+  .pagination {
+    .pagination {
+      --bs-pagination-focus-box-shadow: 0 0 0 0.25rem rgb(205, 76, 44);
+      --bs-pagination-active-bg: rgb(205, 76, 44);
+      --bs-pagination-active-border-color: rgb(205, 76, 44);
+      --bs-pagination-color: #cd4c2c;
+      --bs-link-hover-color: #cd4c2c;
+    }
+    ul {
+      margin: 0.2em;
+    }
+  }
+}

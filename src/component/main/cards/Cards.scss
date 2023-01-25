@@ -1,0 +1,73 @@
+.card {
+  margin: 0.25rem;
+  width: auto;
+  --bs-card-bg: rgba(0, 0, 0, 0.03) !important;
+  .background-blur {
+    background-color: gray;
+    filter: blur(0.5px);
+  }
+  .card-header {
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 0;
+    :hover {
+      text-decoration: underline;
+    }
+  }
+  .zoom {
+    width: auto;
+    height: 25em;
+    overflow: hidden;
+    position: relative;
+    .image-back {
+      height: 100%;
+      background-position: center !important;
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      transition: all 1s !important;
+    }
+    .text {
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #000000;
+      font-size: 20px;
+      font-weight: bold;
+      position: absolute;
+      bottom: 0;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+      :hover {
+        text-decoration: underline;
+      }
+    }
+    .card-button-group {
+      flex-direction: row;
+      margin-left: 20;
+      justify-content: space-evenly;
+      color: #ffffff;
+      text-shadow: 1px 1px 1px #000000;
+      font-size: 20px;
+      font-weight: bold;
+      position: absolute;
+      right: 0;
+      padding: 10px;
+      text-decoration: none;
+      text-align: center;
+      button {
+        background-color: transparent;
+        border: none;
+      }
+      :hover {
+        text-decoration: none;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
